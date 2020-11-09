@@ -1,4 +1,5 @@
 i = imread('C:\Users\Noelle\Documents\school\iqp\AI repo\histogram_equalization\algorithm-prototyping\images\test1.png');
+i = rgb2gray(i); %converts to grayscale
 ih = histeq(i);
 
 subplot(2,2,1), imshow(i), title('Original Image');
