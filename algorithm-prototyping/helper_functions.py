@@ -24,7 +24,7 @@ def open_next_image(canvas: Canvas, new_image):
     canvas.delete('scan')
 
     im = Image.open(new_image)
-    scanned_imgs = histogram_equalization_v1(im)
+    scanned_imgs = histogram_equalization_v1(im)  # CHANGE THIS ALGORITHM
 
     im1 = open_image(canvas, scanned_imgs[0], 0, 0, 600)
     im2 = open_image(canvas, scanned_imgs[1], 650, 0, 600)
