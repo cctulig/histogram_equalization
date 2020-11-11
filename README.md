@@ -4,6 +4,7 @@
 Run app.py to run the auto tester.
 This file loads the canvas that all the images and text are displayed on.
 How to use the auto tester:
+    
     - 'a' to accept an image
     - 'd' to deny an image
     - 'right arrow' to navigate to the next image
