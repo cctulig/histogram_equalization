@@ -1,4 +1,4 @@
-# histogram_equalization
+# algorithm-prototyping
 ## Auto tester
 ### app.py
 Run app.py to run the auto tester.
