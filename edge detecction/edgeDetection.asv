@@ -1,0 +1,14 @@
+%Detect Edges in Images
+%This example shows how to detect edges in an image using both the Canny edge detector and the Sobel edge detector.
+%Read image and display it.
+I = imread('C:\Users\Noelle\Documents\school\iqp\AI repo\histogram_equalization\algorithm-prototyping\images\test2.png');
+
+imshow(I)
+
+%Apply both the Sobel and Canny edge detectors to the image and display them for comparison.
+BW1 = edge(I,'sobel');
+BW2 = edge(I,'canny');
+figure;
+imshowpair(BW1,BW2,'montage')
+title('Sobel Filter and Canny Filter');
+%Copyright 2015 The MathWorks, Inc.

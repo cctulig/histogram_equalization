@@ -1,4 +1,4 @@
-# histogram_equalization
+# algorithm-prototyping
 ## Auto tester
 ### app.py
 Run app.py to run the auto tester.
@@ -15,6 +15,7 @@ Class that holds all the information of all the image processing results
 
 ### Helper Functions
 Functions for resizing the images as well as running the edge detection algorithms
+
 IMPORTANT: Change line 27 to change which histogram equalization algorithm is being used.
 
 ## Histogram Equalization Algorithms:
